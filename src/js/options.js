@@ -77,7 +77,7 @@ var app = {
         * Email and URL input fields
         */
         set: function(email, url){
-            return '<div class="set"><input type="email" value="' + email + '" placeholder="Email address" class="email"><input type="url" value="' + url + '" placeholder="Url of signature (https:// only)" class="url"></div>';
+            return '<div class="set"><input type="email" value="' + email + '" placeholder="E-mailov&aacute; adresa" class="email"><input type="url" value="' + url + '" placeholder="Adresa podpisu (pouze https://)" class="url"></div>';
         }
     }
 };

@@ -32,10 +32,17 @@ $(document).ready(function() {
 
 function addSignature(email, containerId) {
 
+
     // If we've already added the signature don't re-add (especially if the user has manually deleted it)
+/*
     if ($('.gm-signature[data-gm-signature-id="' + containerId + '"]').attr('data-gm-signature-added') != 0) {
+	    alert("ahoj");
         return;
     }
+*/
+
+alert("ahoj");
+
 
     // Get the signature URL which matches the selected email
     chrome.storage.sync.get(null, function(obj) {
